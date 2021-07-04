@@ -2,10 +2,14 @@
 # Edit at https://www.gitignore.io/?templates=django
 
 ### Django ###
+__pycache__/
 *.log
 *.pot
 *.pyc
-__pycache__/
-local_settings.py
+*.py[cod]
+
+.Python
+venv/
+
 db.sqlite3
-media
+.DS_Store
